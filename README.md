@@ -8,7 +8,13 @@
 This is a Classification problem. You can import dataset from the [following link](https://www.kaggle.com/datasets/patelprashant/employee-attrition)  to replicate the same results and follow along the experiement. We'll use XgBoost to solve this problem.
 
 **Important learnings:**
+* Write custom function to calculate data type, Number of records, % of missing values, and range for each variable.
+* Indetify and handle outliers.
+* Build a pairplot to see relationship among variables.
+* Build heatmap to visualize correlation among variables.
 * Handle imbalanced Dataset using SMOTE sampling method.
 * Encode Categorical features
+* Stratified sampling to split dataset in to train and test datasets.
 * Build CatBoostClassifier, LightGBM Classifier(LGBMClassifier), and XgBoost Classifier.
 * Hyperparameter tuning to find the best hyperparameters for our model training.
+  
